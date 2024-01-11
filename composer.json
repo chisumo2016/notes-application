@@ -1,0 +1,26 @@
+{
+    "name": "developer/website-application",
+    "authors": [
+        {
+            "name": "bernard chisumo",
+            "email": "bchisumo74@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.40"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.31"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
